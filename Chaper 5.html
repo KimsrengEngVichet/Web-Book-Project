@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chpter 5</title>
+</head>
+<body>
+    <style>
+        ol li{
+            font-weight: bold;
+        }
+        li>p{
+            font-weight: normal;
+        }
+    </style>
+    <style>
+        .indent{
+            text-indent: 80px;
+            margin-left: 00px ;
+        }
+    </style>
+    <style>
+        .indentall{
+            margin-left: 80px ;
+        }
+    </style>
+
+    <table border="0" colspacing="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="left">
+                <h3>Web Development I</h3>
+            </td>
+            <td align="right">
+                <h3>SETEC INSTITUTE</h3>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table border="0" colspacing="0" cellspacing="0" width="100%" >
+        <tr>
+            <td width="10%">
+                <h1>Chapter 5</h1>
+            </td>
+            <td>
+                <table border="0" colspacing="0" cellspacing="0" width="100%" height="100%">
+                    <tr align="center">
+                        <td width="88.89%">
+                            <h1>Forms</h1>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    &nbsp;
+
+
+    <ol type="1" style="font-family: Khmer OS Siemreap; font-size: 23px;">
+        <li>
+            <p><b>ប្រភេទរបស់ Form</b></p>
+            <p>
+                Form នៅក្នុង HTML ត្រូវបែងចែកជាពីរគឺ៖
+                <ul type="square">
+                    <li>
+                        <p>
+                            Structure or Shell : ជាការកំណត់រចនាសម្ព័ន្ធ និងសំបករបស់ Form ដែលមាន Field ដូចជា Textbox, label, Buntton ដែល​ User មើលឃើញលើនិងបំពេញលើ Web Page។
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Processing script: ជា server-side scrpit ដែលនឹងយកព៏ត៌មាននៅក្នុង form ទៅបំពេញនៅក្នុង database។
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </li>
+
+        <p class="indent">
+            ក្នុង Form យើងអាចបង្កើត form element ដូចជា textbox, radio buttons, checkboxes,dropdown menus, textarea, និង button។ អ្នកត្រូវឱ្យឈ្មោះ Field នីមួយៗដោយ name attribute ដើម្បីសំគាល់ពេលយក Data ទៅ Process។
+        </p>
+        <li>
+            <p><b>ទម្រង់ទូទៅរបស់ HTML Form</b></p>
+            <p>
+                Form មានផ្នែកសំខាន់ៗមួយចំនួនដូចជា៖
+                <ul type="square">
+                    <li>
+                        <p>
+                         Form tag ដែលត្រូកំណត់នូវ url របស់ sever-script ដែលនឹង process form data form elements និង​ menu   
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Submit button សំរាប់ send ទិន្នន័យទៅកាន់ sever
+                        </p>
+                    </li>
+                </ul>
+                <p class="indent">
+                    ទម្រង់របស់​ Form: <br>
+                    <p style="margin-left: 120px;">
+                        &lt;Form method="post|get" <br>
+                            name="form-name" <br>
+                            action="url"&gt;<br>
+                        ----------------------------- <br>  
+                        &lt;/Form&gt;
+                    </p>
+
+                </p>
+                
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>
+                    &lt;Input&gt; tags
+                </b>
+            </p>
+            <p>
+                បង្កើត Textbox សំរាប់ឱ្យ User បញ្ចូល ទិន្នន័យអាចផ្ទុក text បានមួយបន្ទាត់។<br>
+                <p class="indentall">
+                    &lt;input type="text"<br>
+                            name="txt-name"<br>
+                            value="defaul-value"<br>
+                            size=n <br>
+                            maxlength="n" <br>
+                    /&gt;<br>
+                    <b>
+                        Note:size=n(set the <ins>size of the text box</ins> to be n char.)
+                    </b>
+                </p>
+            </p>
+        </li>
+    </ol>
+</body>
+</html>
